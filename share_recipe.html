@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Share Recipe
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recipe_website.css">
+</head>
+<form method="post" action="">
+
+    <body>
+        <div id="menu">
+            <div id="menu_logo">
+                <img src="images/logo1.png" id="logo_image">
+            </div>
+            <div id="menu_links" align="center">
+                <a href="index.html">Home</a>
+                <a href="recipe.html">Recipe</a>
+                <a href="chef.html">Chef</a>
+                <a href="about_us.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html"><input type="button" name="btn_login" value="Log in" id="login_btn"></a>
+            </div>
+        </div>
+        <div id="share_recipe_heading_div">
+            <h1>Share Recipe</h1>
+            <hr width="17%" style="color:yellow;">
+        </div>
+        <div id="share_recipe_info">
+            <div>
+                <div id="share_recipe_side_image">
+                    <img src="images/gujarati_dishe2.webp" width="600px">
+                </div>
+                <div id="share_recipe_name" align="center">
+                    Khuichu
+                </div>
+            </div>
+            <div id="share_tab">
+                <table bgcolor="#FDF7E4" style="
+                      width: auto;
+                      height: 450px;
+                      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                    ">
+                    <tr>
+                        <td align="center" colspan="2">
+                            <h1>Share Recipe</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email_here" style="margin: 20px; font-size: 1.5rem;;"><b> Email</b> </label>
+                        </td>
+
+                        <td>
+                            <input type="email" name="user_email" id="email_here" placeholder="Email" required style="
+                            width: 200px;
+                            height: 40px;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                              rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                            background-color: #d8d9da;
+                            padding: 2px;
+                            margin-right: 20px;
+                            border-bottom: 2px solid #436850;
+                            border-radius: 10px;
+                          " />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Text_here" style="margin: 20px; font-size: 1.5rem;">
+                                <b> Message</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input type="msg" name="msg" id="text_here" placeholder="Text Here" required style="
+                                  width: 200px;
+                                  height: 40px;
+                                  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                                    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                                  background-color: #d8d9da;
+                                  padding: 2px;
+                                  margin-right: 20px;
+                                  border-bottom: 2px solid #436850;
+                                  border-radius: 10px;
+                                " />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="btn_submit" value="Submit" style="width: 150px; height: 40px"
+                                id="login_button" />
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </body>
+</form>
+
+</html>

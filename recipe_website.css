@@ -1,0 +1,724 @@
+/* frirst page  index page*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+#menu{
+   
+    padding: 15px;
+    display: flex;
+    background-color: #436451;
+     justify-content: space-between;
+}
+
+
+#logo_image{
+    height: 100px;
+
+}
+
+#menu_links {
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+#menu_links>a:link {
+    color: #FF6E31;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+#menu_links>a:hover {
+    padding: 15px;
+    color:black;
+    
+}
+#menu_links>a:active {
+    padding: 15px;
+    color: white;
+    
+}
+#login_btn{
+    width:80px;
+    height:40px;
+    background-color: #F9EFDB;
+    font-weight: bold;
+    font-size:large;
+    color: #597E52;
+    
+    border-radius: 10px;
+}
+#banner_recipe{
+   margin: 40px;
+   padding: 70px;
+   
+    
+}
+#banner_image{
+    height: 700px;
+    width: 1300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#heading_recipe{
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    margin-bottom: 20px;
+    
+}
+
+
+#parent_div{
+    display: flex;
+    
+}
+
+#indian_food{
+    height: 230px;
+    width: 230px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}#punjabi_food{
+    height: 230px;
+    width: 230px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}#italian_food{
+    height: 230px;
+    width: 230px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}#maxican_food{
+    height: 230px;
+    width: 230px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}#chinese_food{
+    height: 230px;
+    width: 230px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#super_div{
+display: flex;
+justify-content: center;
+gap: 150px;
+font-family: 'Noto Serif', serif;
+      
+}
+.sub_div{
+    font-size: 1rem;
+    padding: 15px;
+}
+#one_div{
+    padding: 70px;
+}
+#one_dishe{
+    display: flex;
+}
+#dishe1{
+    margin: 30px;
+    padding: 70px;
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#about_dishe{
+    margin: 20px;
+    padding: 70px;
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Noto Serif', serif;
+}
+
+#chef_div{
+    display: flex;
+   padding-bottom: 70px;
+}
+#heading_chef{
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    margin-bottom: 20px;
+
+}
+#chef1{
+    margin: 20px;
+    padding: 20px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+}
+#chef2{
+    margin: 20px;
+    padding: 20px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+}#chef3{
+    margin: 20px;
+    padding: 20px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+}#chef4{
+    margin: 20px;
+    padding: 20px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+}#chef5{
+    margin: 20px;
+    padding: 20px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+}
+
+
+#subscribe_div{ 
+    margin: 20px;
+    padding: 20px;
+    background-color: #9DBC98;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 20px;
+   
+}
+
+#footer_div{
+    margin: 20px;
+    padding: 20px;
+    background-color: #9DBC98;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+
+/* CSS */
+.button-73 {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #597E52 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #597E52 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+/* second page  recipe page*/
+
+#first_div{
+    margin: 20px;
+    padding: 70px;;
+} 
+
+#gujarati_recipe {
+    display: flex;
+    gap: 20px;
+    padding-top: 70px;
+}
+.gujarati_recipe_image {
+    border-radius: 30px;
+    height:456px;
+    width: 439px;
+}
+p{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+#second_div{
+    margin: 20px;
+    padding: 70px;;
+} 
+#chinese_recipe {
+    display: flex;
+    gap: 20px;
+    padding-top: 70px;
+}
+.chinese_recipe_image {
+    border-radius: 30px;
+    height:456px;
+    width: 439px;
+}
+#third_div{
+    margin: 20px;
+    padding: 70px;;
+} 
+#punjabi_recipe {
+    display: flex;
+    gap: 20px;
+    padding-top: 70px;
+}
+.punjabi_recipe_image {
+    border-radius: 30px;
+    height:456px;
+    width: 439px;
+}
+.guj_rec_name{
+   
+        font-size: 2rem;
+        padding:30px;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Patua One', serif;
+  
+}
+
+/* Third Page  login page */
+
+#login_heading_div{
+    margin: 30px;
+    padding:30px;
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    
+}
+#login_banner{
+    margin-top: 30PX;
+    margin-bottom: 70PX;
+    margin-left: 60PX;
+    margin-right:  60PX;
+    padding: 70px;  
+    height: 270px;
+    width: 1250px; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           
+}
+#login_info{
+    display: flex;
+}
+
+#login_side_image{
+    height: 462px;
+    width: 613px; 
+    margin:60px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#login_tab{
+    margin: 100px;
+
+}
+#login_button {
+    background-color: #436850;
+    font-weight: bold;
+    font-size: small;
+    color: #eef0e5;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+  }
+  /* forth page   register page*/
+
+  #register_heading_div{
+    margin: 30px;
+    padding:30px;
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    
+}
+#register_banner{
+    margin-top: 30PX;
+    margin-bottom: 70PX;
+    margin-left: 60PX;
+    margin-right:  60PX;
+    padding: 70px;  
+    height: 270px;
+    width: 1250px; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           
+}
+#register_info{
+    display: flex;
+}
+
+#register_side_image{
+    height: 462px;
+    width: 613px; 
+    margin:60px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#register_tab{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#register_button {
+    background-color: #436850;
+    font-weight: bold;
+    font-size: small;
+    color: #eef0e5;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+  }
+  #select_country{
+    width: 206px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #d8d9da;
+    padding: 2px;
+    margin-right: 20px;
+    border-bottom: 2px solid #436850;
+    border-radius: 10px;
+  
+
+}
+/* fifth Page  forgot page*/
+
+#forgot_heading_div{
+    margin: 30px;
+    padding:30px;
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    
+}
+#forgot_banner{
+    margin-top: 30PX;
+    margin-bottom: 70PX;
+    margin-left: 60PX;
+    margin-right:  60PX;
+    padding: 70px;  
+    height: 270px;
+    width: 1250px; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           
+}
+#forgot_info{
+    display: flex;
+}
+
+#forgot_side_image{
+    height: 600px;
+    width: 600px; 
+    margin:60px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#forgot_tab{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+#forgot_button {
+    background-color: #436850;
+    font-weight: bold;
+    font-size: small;
+    color: #eef0e5;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+  }
+
+  /* sixth page share recipe */
+
+  #share_recipe_heading_div{
+    margin: 30px;
+    padding:30px;
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    
+}
+#share_recipe_info{
+    display: flex;
+}
+#share_recipe_side_image{
+    height: 600px;
+    width: 600px; 
+    margin-left:70px;
+    margin-right: 70px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#share_recipe_name{
+    font-size: 2rem;
+    padding:30px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+}
+#share_tab{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 150px;
+}
+
+/*seventh page make recipe */
+
+#make_recipe_heading_div{
+    margin: 30px;
+    padding:30px;
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    
+}
+#make_recipe_image{
+    height: 400px;
+    width: 600px; 
+    margin-left:70px;
+    margin-right: 70px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.make_recipe_name{
+    font-size: 2rem;
+    padding:30px;
+    margin: 30px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+}
+
+#make_recipe_info{
+    display: flex;
+}
+
+.titel_ingredients{
+    font-size: 2rem;
+    padding:30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+}
+
+.recipe_ingredients{
+    font-size: 1.3rem;
+    padding:30px;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  
+    
+}
+#make_recipe_image2{
+    height: 550px;
+    width: 600px; 
+    margin-left:70px;
+    margin-right: 70px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#make_recipe_info2{
+    display: flex;
+}
+
+/* eightth page about chef */
+
+
+/* nineth page FAQ */
+
+#faq_heading_div{
+    margin: 30px;
+    padding:30px;
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    
+}
+#faq_banner{
+    margin-top: 30PX;
+    margin-bottom: 70PX;
+    margin-left: 60PX;
+    margin-right:  60PX;
+    padding: 70px;  
+    height: 270px;
+    width: 1250px; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           
+}
+.ques{
+    margin: 30px;
+    padding:30px;
+    font-size: 1rem;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+}
+
+.ans{
+    margin: 20px;
+    padding: 20px;
+    background-color: #9DBC98;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    display: none;
+}
+
+#div1:hover {
+    #a1 {
+         display: block;
+    }
+}
+
+#div2:hover {
+    #a2 {
+         display: block;
+    }
+}
+
+#div3:hover {
+    #a3 {
+         display: block;
+    }
+}
+
+/* tenth page about us */
+
+#about_us_heading_div{
+    margin: 30px;
+    padding:30px;
+    font-size: larger;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Patua One', serif;
+    
+}
+#about_us_banner{
+    margin-top: 30PX;
+    margin-bottom: 70PX;
+    margin-left: 60PX;
+    margin-right:  60PX;
+    padding: 70px;  
+    height: 270px;
+    width: 1250px; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           
+}
+#about_us_side_image{
+    margin-top: 30PX;
+    margin-bottom: 70PX;
+    margin-left: 60PX;
+    margin-right:  60PX;
+    padding: 70px;  
+    height: 250px;
+    width: 3000px;
+    border-radius: 50%; 
+    background-color: #436451;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                  rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           
+}
+
+#main_about{
+    display: flex;
+}
+
+#about_content{ 
+    margin: 20px;
+    padding: 20px;
+    background-color:rgb(242, 241, 232);
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 20px;
+   
+}

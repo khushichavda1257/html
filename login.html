@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Login Page
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recipe_website.css">
+</head>
+<form method="post" action="recipe.html">
+    <body>
+        <div id="menu">
+            <div id="menu_logo">
+                <img src="images/logo1.png" id="logo_image">
+            </div>
+            <div id="menu_links" align="center">
+                <a href="index.html">Home</a>
+                <a href="recipe.html">Recipe</a>
+                <a href="chef.html">Chef</a>
+                <a href="about_us.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html"><input type="button" name="btn_login" value="Log in" id="login_btn"></a>
+            </div>
+        </div>
+        <div id="login_heading_div">
+            <h1>Login</h1>
+            <hr width="8%" style="color:yellow;">
+        </div>
+        <div align="center" id="login_banner">
+            <img src="images/login_banner.png" width="50%">
+        </div>
+        <div id="login_info">
+            <div id="login_side_image">
+                <img src="images/login_2.jpg" width="600px">
+            </div>
+            <div id="login_tab">
+                <table bgcolor="#FDF7E4" style="
+                  width: auto;
+                  height: 450px;
+                  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                ">
+                    <tr>
+                        <td align="center" colspan="2">
+                            <h1>Login</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email_here" style="margin: 20px; font-size: 1.5rem;;"><b> Email</b> </label>
+                        </td>
+
+                        <td>
+                            <input type="email" name="user_email" id="email_here" placeholder="Email" required style="
+                        width: 200px;
+                        height: 40px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                          rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        background-color: #d8d9da;
+                        padding: 2px;
+                        margin-right: 20px;
+                        border-bottom: 2px solid #436850;
+                        border-radius: 10px;
+                      " />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password_here" style="margin: 20px; font-size: 1.5rem;;">
+                               <b> Password</b>
+                            </label>
+                        </td>
+
+                        <td>
+                            <input type="password" name="password" id="password_here" placeholder="Password" required
+                                style="
+                        width: 200px;
+                        height: 40px;
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+                          rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                        background-color: #d8d9da;
+                        padding: 2px;
+                        margin-right: 20px;
+                        border-bottom: 2px solid #436850;
+                        border-radius: 10px;
+                      " />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="btn_submit" value="Login" style="width: 150px; height: 40px"
+                                id="login_button" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b> <a href="forgot_password.html" id="herf_forgot">Forgot Password</a></b>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</form>
+
+</html>
